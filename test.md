@@ -1,20 +1,19 @@
-{% docs gold_digital_data_dictionary %}
+# Data Dictionary for Exec 2.0 Dashboard 
+## Overview
+This data dictionary provides key business KPIs (e.g. revenue, sessions) which are used in [Exec2.0 dashboard] (https://10ay.online.tableau.com/#/site/alo/views/ExecDash2_0DateRangeTabDRAFT/Yesterday) to track Alo's digital performance. We listed the key terms here in dbt doc for DE's visibility and to help DE-DA-DS collaboration.
 
-### Overview
-This data dictionary provides key business KPIs (e.g. revenue, sessions) which are used in [Exec2.0 dashboard](https://10ay.online.tableau.com/#/site/alo/views/ExecDash2_0DateRangeTabDRAFT/Yesterday) to track Alo's digital performance. We listed the key terms here in dbt doc for DE's visibility and to help DE-DA-DS collaboration.
+## Referenced by 
+[Tableau Doc] https://10ay.online.tableau.com/t/alo/views/DataDictionary/ExecutiveDashboardDataDictionary
 
-### Referenced by 
-[Tableau Doc](https://10ay.online.tableau.com/t/alo/views/DataDictionary/ExecutiveDashboardDataDictionary) 
+## Depend on
+DA's inputs and
 
-### Depend On
-[Terms' Reference](https://alodigital.atlassian.net/wiki/spaces/AD/pages/1572044846/Dashboard+Metrics+Data+Dictionary+-+Alo+Yoga+WIP)
-
-DA's Inputs 
+[Terms' Reference] https://alodigital.atlassian.net/wiki/spaces/AD/pages/1572044846/Dashboard+Metrics+Data+Dictionary+-+Alo+Yoga+WIP
 
 
-### Column Descriptions
+## Column Descriptions
 
-YESTERDAY View
+### YESTERDAY View
 
 | Category | KPI Name | Definition | Source | Original Name | Table |
 |---|---|---|---|---|---|
@@ -42,7 +41,5 @@ YESTERDAY View
 
 
 
-### Related Models
+## Related Models
 - **Upstream**: mainly from sil_post_alo_daily_metrics
-
-{% enddocs %}
