@@ -3,10 +3,13 @@
 ### Overview
 This data dictionary provides key business KPIs (e.g. revenue, sessions) which are used in [Exec2.0 dashboard](https://10ay.online.tableau.com/#/site/alo/views/ExecDash2_0DateRangeTabDRAFT/Yesterday) to track Alo's digital performance. We listed the key terms here in dbt doc for DE's visibility and to help DE-DA-DS collaboration.
 
-### Notes
+### Referenced by 
 [Tableau Doc](https://10ay.online.tableau.com/t/alo/views/DataDictionary/ExecutiveDashboardDataDictionary) 
 
+### Depend On
 [Terms' Reference](https://alodigital.atlassian.net/wiki/spaces/AD/pages/1572044846/Dashboard+Metrics+Data+Dictionary+-+Alo+Yoga+WIP)
+
+DA's Inputs 
 
 
 ### Column Descriptions
